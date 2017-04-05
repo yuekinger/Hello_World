@@ -1,0 +1,21 @@
+[
+	{ "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+	{ "keys": ["super+alt+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },	
+
+	{ "keys": ["ctrl+g"], "command": "find_under_expand" },
+	{ "keys": ["shift+super+up"], "command": "swap_line_up" },
+	{ "keys": ["shift+super+down"], "command": "swap_line_down" },
+	{ "keys": ["super+d"], "command": "duplicate_line" },
+	{ "keys": ["super+y"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+shift+j"], "command": "join_lines" },
+	{ "keys": ["super+alt+l"], "command": "reindent" },
+	{ "keys": ["super+shift+u"], "command": "upper_case" },
+	{ "keys": ["super+shift+l"], "command": "lower_case" },
+
+	{ "keys": ["super+e"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["super+shift+n"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["super+shift+a"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	
+	{ "keys": ["super+w"], "command": "expand_selection", "args": {"to": "sub_words"} },
+]
